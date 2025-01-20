@@ -10,5 +10,10 @@ public class Lesson06LogicOperators {
         System.out.println("isTenLowerThen20 "+isTenLowerThen20);
         System.out.println("isTenIgual20 "+isTenIgual20);
         System.out.println("isTenDifferent20 "+isTenDifferent20);
+
+        int age = 17;
+        float salary = 3500;
+        boolean isTrue = age >= 18 && salary >= 3000;
+        System.out.println("isTrue "+isTrue);
     }
 }
