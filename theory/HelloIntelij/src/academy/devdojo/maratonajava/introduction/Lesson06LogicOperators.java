@@ -21,5 +21,14 @@ public class Lesson06LogicOperators {
         double playstationFivePrice = 5000;
         boolean isBuyingPlaystationFivePossible = moneyOnHands > playstationFivePrice || moneyBank > playstationFivePrice;
         System.out.println("isBuyingPlaystationFivePossible "+ isBuyingPlaystationFivePossible);
+
+        int counter2 = 0;
+        int counter = 0;
+        counter += 1;
+        counter++;
+        counter--;
+        System.out.println(counter);
+        System.out.println(++counter2);
+
     }
 }
