@@ -15,5 +15,11 @@ public class Lesson06LogicOperators {
         float salary = 3500;
         boolean isTrue = age >= 18 && salary >= 3000;
         System.out.println("isTrue "+isTrue);
+
+        double moneyBank = 10000;
+        double moneyOnHands = 5;
+        double playstationFivePrice = 5000;
+        boolean isBuyingPlaystationFivePossible = moneyOnHands > playstationFivePrice || moneyBank > playstationFivePrice;
+        System.out.println("isBuyingPlaystationFivePossible "+ isBuyingPlaystationFivePossible);
     }
 }
