@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introduction;
 
-public class Lesson04Operators {
+public class Lesson04ArithmeticOperators {
     public static void main (String[] args){
         int n1 = 10;
         double n2 = 20;
