@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.introduction;
 
-public class Lesson10MultidimensionalArrays01 {
+public class Lesson10MultiDimensionalArrays01 {
     public static void main(String[] args) {
         int[][] days = new int[3][3];
         int counter = 1;
