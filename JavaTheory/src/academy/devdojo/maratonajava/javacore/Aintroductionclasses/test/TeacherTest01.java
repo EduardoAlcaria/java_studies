@@ -1,10 +1,10 @@
 package academy.devdojo.maratonajava.javacore.Aintroductionclasses.test;
 
-import academy.devdojo.maratonajava.javacore.Aintroductionclasses.domain.teacher;
+import academy.devdojo.maratonajava.javacore.Aintroductionclasses.domain.Teacher;
 
 public class TeacherTest01 {
     public static void main(String[] args) {
-        teacher teacher = new teacher();
+        Teacher teacher = new Teacher();
         teacher.name = "Satoru Gojo";
         teacher.age = 29;
         teacher.gen = 'M';
