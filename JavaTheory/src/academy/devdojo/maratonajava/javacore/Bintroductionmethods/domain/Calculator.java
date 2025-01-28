@@ -11,4 +11,10 @@ public class Calculator {
     public void times(int a, int b){
         System.out.println(a * b);
     }
+    public double slit(double a, double b){
+        if (b == 0){
+            return 0;
+        }
+        return a/b;
+    }
 }
