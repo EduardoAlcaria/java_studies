@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.javacore.Bintroductionmethods.tests;
 import academy.devdojo.maratonajava.javacore.Bintroductionmethods.domain.PrintStudent;
 import academy.devdojo.maratonajava.javacore.Bintroductionmethods.domain.Student;
 
-public class MethodsTests01 {
+public class MethodTests04 {
     public static void main(String[] args) {
         Student student1 = new Student();
         Student student2 = new Student();
