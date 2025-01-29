@@ -34,4 +34,18 @@ public class Calculator {
         }
         System.out.println("splitting a number by 0 is not possible");
     }
+    public void arraySum(int[] sum){
+        int s = 0;
+        for (int num : sum){
+            s += num;
+        }
+        System.out.println(s);
+    }
+    public void arrayVarArgs(int... sum){
+        int s = 0;
+        for (int num : sum){
+            s += num;
+        }
+        System.out.println(s);
+    }
 }
