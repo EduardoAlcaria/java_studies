@@ -7,6 +7,7 @@ public class MethodTests08 {
         People people = new People();
         people.setName("itadori");
         people.setAge(16);
-        people.print();
+        System.out.println(people.getName());
+        System.out.println(people.getAge());
     }
 }
