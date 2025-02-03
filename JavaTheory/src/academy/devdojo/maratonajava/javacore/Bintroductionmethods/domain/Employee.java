@@ -2,25 +2,23 @@ package academy.devdojo.maratonajava.javacore.Bintroductionmethods.domain;
 
 
 public class Employee {
-    public String name;
-    public int age;
-    public double[] salary;
-
-    public void averageSalary() {
+    private String name;
+    private int age;
+    private double[] salary;
+    private double average = 0;
+    private void averageSalary() {
         if (salary == null) {
             return;
         }
 
-        double average = 0;
-
         for (double s : salary) {
-            average += s;
+            this.average += s;
         }
 
-        average /= salary.length;
+        this.average /= salary.length;
 
         System.out.print("\naverage salary: ");
-        System.out.println(average);
+        System.out.print(average);
     }
     public void printer(){
         System.out.println(this.name);
@@ -37,5 +35,17 @@ public class Employee {
         }
 
         averageSalary();
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    public void setSalary(double... salary){
+        this.salary = salary;
     }
 }
