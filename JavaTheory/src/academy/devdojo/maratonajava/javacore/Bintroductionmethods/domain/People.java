@@ -28,4 +28,3 @@ public class People {
         return this.age;
     }
 }
-
