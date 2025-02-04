@@ -8,7 +8,8 @@ public class StaticModifiersTest01 {
         Car car2 = new Car("Mercedes", 275);
         Car car3 = new Car("Audi", 290);
 
-        Car.speedLimit = 180;
+        Car.setSpeedLimit(180);
+        System.out.println(Car.getSpeedLimit());
 
         car1.print();
         car2.print();
