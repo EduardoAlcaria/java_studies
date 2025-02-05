@@ -4,12 +4,11 @@ import academy.devdojo.maratonajava.javacore.Fstaticmodifier.domain.Car;
 
 public class StaticModifiersTest01 {
     public static void main(String[] args) {
-        Car car1 = new Car("BMW", 280);
-        Car car2 = new Car("Mercedes", 275);
-        Car car3 = new Car("Audi", 290);
-
         Car.setSpeedLimit(180);
-        System.out.println(Car.getSpeedLimit());
+
+        Car car1 = new Car("BWM", 280);
+        Car car2 = new Car("Audi", 300);
+        Car car3 = new Car("Mercedes", 310);
 
         car1.print();
         car2.print();

@@ -11,10 +11,18 @@ public class Car {
     }
 
     public void print() {
-        System.out.println("---------------------");
+        System.out.println("------------------------");
         System.out.println("Name " + this.name);
         System.out.println("Top Speed " + this.topSpeed);
         System.out.println("Speed Limit " + Car.speedLimit);
+    }
+
+    public static void setSpeedLimit(double speedLimit) {
+        Car.speedLimit = speedLimit;
+    }
+
+    public static double getSpeedLimit(){
+        return Car.speedLimit;
     }
 
     public String getName() {
@@ -31,13 +39,5 @@ public class Car {
 
     public void setTopSpeed(double topSpeed) {
         this.topSpeed = topSpeed;
-    }
-
-    public static void setSpeedLimit(double speedLimit) {
-        Car.speedLimit = speedLimit;
-    }
-
-    public static double getSpeedLimit() {
-        return Car.speedLimit;
     }
 }
