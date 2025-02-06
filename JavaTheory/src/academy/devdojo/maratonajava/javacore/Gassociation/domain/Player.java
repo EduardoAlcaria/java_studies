@@ -6,7 +6,7 @@ public class Player {
 
     public void print() {
         System.out.println(this.name);
-        if (team != null) {
+        if (team != null){
             System.out.println(team.getName());
         }
     }

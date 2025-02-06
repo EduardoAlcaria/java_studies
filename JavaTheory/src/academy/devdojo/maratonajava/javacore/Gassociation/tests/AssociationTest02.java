@@ -5,11 +5,12 @@ import academy.devdojo.maratonajava.javacore.Gassociation.domain.Team;
 
 public class AssociationTest02 {
     public static void main(String[] args) {
-
-        Player player = new Player("Sung");
+        Player player1 = new Player("Sung");
         Team team = new Team("Monarch");
 
-        player.setTeam(team);
-        player.print();
+        player1.setTeam(team);
+        player1.print();
     }
+
 }
+
