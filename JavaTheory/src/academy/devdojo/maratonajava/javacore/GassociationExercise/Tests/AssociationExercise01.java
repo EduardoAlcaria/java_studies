@@ -9,9 +9,7 @@ public class AssociationExercise01 {
     public static void main(String[] args) {
         Student student1 = new Student("Itadori", 16);
 
-        Student student2 = new Student("Megumi", 15);
-
-        Student[] studentsSeminary = {student1, student2};
+        Student[] studentsSeminary = {student1};
 
         Place place1 = new Place("1st street");
 
