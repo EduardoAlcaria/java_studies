@@ -6,10 +6,6 @@ public class Seminary {
     private Student[] students;
     private Professor professor;
 
-    public Seminary(String title) {
-        this.title = title;
-    }
-
     public Seminary(String title, Place place) {
         this.title = title;
         this.place = place;

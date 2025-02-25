@@ -12,13 +12,15 @@ class AssociationExercise01Tests {
 
     @Test
     void testStudentSeminaryAssociation() {
+        Place place = new Place("Tokyo Jujutsu High");
         Student student = new Student("Yuta Okkotsu", 17);
-        Seminary seminary = new Seminary("Advanced Cursed Techniques");
+        Seminary seminary = new Seminary("Advanced Cursed Techniques", place);
 
         student.setSeminary(seminary);
 
         assertNotNull(student.getSeminary());
         assertEquals("Advanced Cursed Techniques", student.getSeminary().getTitle());
+        assertEquals("Tokyo Jujutsu High", student.getSeminary().getPlace().getAddress());
     }
 
     @Test
@@ -58,9 +60,11 @@ class AssociationExercise01Tests {
 
     @Test
     void testAddingSeminariesToProfessor() {
+        Place place1 = new Place("Tokyo Jujutsu High");
+        Place place2 = new Place("Training Ground");
         Professor professor = new Professor("Gojo Satoru", "Cursed Techniques");
-        Seminary seminary1 = new Seminary("How to use Limitless");
-        Seminary seminary2 = new Seminary("Mastering Purple Hollow");
+        Seminary seminary1 = new Seminary("How to use Limitless", place1);
+        Seminary seminary2 = new Seminary("Mastering Purple Hollow", place2);
 
         Seminary[] seminaries = {seminary1, seminary2};
         professor.setSeminaries(seminaries);
