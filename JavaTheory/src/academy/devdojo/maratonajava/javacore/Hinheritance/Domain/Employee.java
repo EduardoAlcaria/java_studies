@@ -10,4 +10,8 @@ public class Employee extends People{
     public void setSalary(double salary) {
         this.salary = salary;
     }
+    public void print(){
+        super.print();
+        System.out.println("Salary: " + this.salary + "$");
+    }
 }

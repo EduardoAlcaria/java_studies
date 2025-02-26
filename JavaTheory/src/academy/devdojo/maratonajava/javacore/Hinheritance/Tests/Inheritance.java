@@ -24,9 +24,9 @@ public class Inheritance {
         employee.setAddress(address);
         employee.setSalary(1000);
 
-
+        people.print();
+        System.out.println("--------------");
         employee.print();
-        System.out.println("Salary: " + employee.getSalary() + "$");
 
     }
 }
