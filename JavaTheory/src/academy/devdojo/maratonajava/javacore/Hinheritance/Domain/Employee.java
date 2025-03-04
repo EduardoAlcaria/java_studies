@@ -10,6 +10,11 @@ public class Employee extends People{
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    public void report(){
+        System.out.println("I " + this.name + " got " + this.salary + " worth of salary ");
+    }
+
     public void print() {
         super.print();
         System.out.println("Salary: " + this.salary + "$");

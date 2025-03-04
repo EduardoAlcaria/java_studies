@@ -27,6 +27,8 @@ public class Inheritance {
         people.print();
         System.out.println("--------------");
         employee.print();
+        System.out.println("--------------");
+        employee.report();
 
     }
 }
