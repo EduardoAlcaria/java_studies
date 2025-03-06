@@ -5,7 +5,16 @@ public class People {
     protected String cpf;
     protected Address address;
 
-    public void print(){
+    public People(String name) {
+        this.name = name;
+    }
+
+    public People(String name, String cpf) {
+        this(name);
+        this.cpf = cpf;
+    }
+
+    public void print() {
         System.out.println("Name: " + this.name);
         System.out.println("CPF: " + this.cpf);
         System.out.println("Street: " + this.address.getStreet());

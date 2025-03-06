@@ -11,15 +11,12 @@ public class Inheritance {
         address.setStreet("1st Street");
         address.setPostalCode("24125151");
 
-        People people = new People();
-
-        people.setName("Gojo Satoru");
+        People people = new People("Itadorito");
         people.setCpf("1245125125125");
         people.setAddress(address);
 
-        Employee employee = new Employee();
+        Employee employee = new Employee("Gojo Satoru");
 
-        employee.setName("Itadorito");
         employee.setCpf("1245125125125");
         employee.setAddress(address);
         employee.setSalary(1000);

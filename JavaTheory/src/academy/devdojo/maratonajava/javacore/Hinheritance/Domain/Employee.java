@@ -3,6 +3,10 @@ package academy.devdojo.maratonajava.javacore.Hinheritance.Domain;
 public class Employee extends People{
     private double salary;
 
+    public Employee(String name){
+        super(name);
+    }
+
     public double getSalary() {
         return salary;
     }
