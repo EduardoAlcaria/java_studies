@@ -5,8 +5,20 @@ public class People {
     protected String cpf;
     protected Address address;
 
+    static {
+        System.out.println("inside the init static block people");
+    }
+
+    {
+        System.out.println("inside the init block people 1");
+    }
+    {
+        System.out.println("inside the init block people 2");
+    }
+
     public People(String name) {
         this.name = name;
+        System.out.println("Inside Peoples constructor");
     }
 
     public People(String name, String cpf) {
