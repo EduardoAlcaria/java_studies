@@ -1,6 +1,9 @@
 package academy.devdojo.maratonajava.javacore.Jfinalmodifier.tests;
 
+import academy.devdojo.maratonajava.javacore.Jfinalmodifier.domain.Buyer;
 import academy.devdojo.maratonajava.javacore.Jfinalmodifier.domain.Car;
+
+import java.util.Scanner;
 
 public class CarTest01 {
     public static void main(String[] args) {
