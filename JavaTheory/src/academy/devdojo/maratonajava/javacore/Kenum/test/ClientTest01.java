@@ -16,5 +16,11 @@ public class ClientTest01 {
         System.out.println(PaymentMethod.DEBIT.calculateDiscount(100));
         System.out.println(PaymentMethod.CREDIT.calculateDiscount(100));
 
+        TypeClient typeClient = TypeClient.valueOf("STUDENT");
+        System.out.println(typeClient.getNameLog());
+
+        TypeClient typeClient2 = TypeClient.typeClientNameLog("Student");
+        System.out.println(typeClient2);
+
     }
 }

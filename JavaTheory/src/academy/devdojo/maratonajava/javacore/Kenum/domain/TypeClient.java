@@ -17,6 +17,15 @@ public enum TypeClient {
         return index;
     }
 
+    public static TypeClient typeClientNameLog(String nameLog){
+        for (TypeClient typeClient : values()) {
+            if(typeClient.getNameLog().equals(nameLog)){
+                return typeClient;
+            }
+        }
+        return null;
+    }
+
     public String getNameLog() {
         return nameLog;
     }
