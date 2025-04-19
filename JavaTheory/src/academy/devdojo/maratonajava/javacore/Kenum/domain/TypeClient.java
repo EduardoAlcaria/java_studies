@@ -1,19 +1,20 @@
 package academy.devdojo.maratonajava.javacore.Kenum.domain;
 
 public enum TypeClient {
-    STUDENT(1, "STUDENT"),
-    PROFESSOR(2, "PROFESSOR");
+    STUDENT(1, "Student"),
+    TEACHER(2, "Professor");
 
-    private final int VALUE;
+
+    private final int index;
     private final String nameLog;
 
-    TypeClient(int value, String nameLog) {
-        this.VALUE = value;
+    TypeClient(int index, String nameLog) {
         this.nameLog = nameLog;
+        this.index = index;
     }
 
-    public int getValue() {
-        return VALUE;
+    public int getIndex() {
+        return index;
     }
 
     public String getNameLog() {
