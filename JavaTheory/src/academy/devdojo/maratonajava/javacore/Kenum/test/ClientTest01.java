@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Kenum.test;
 
 import academy.devdojo.maratonajava.javacore.Kenum.domain.Client;
+import academy.devdojo.maratonajava.javacore.Kenum.domain.Colors;
 import academy.devdojo.maratonajava.javacore.Kenum.domain.PaymentMethod;
 import academy.devdojo.maratonajava.javacore.Kenum.domain.TypeClient;
 
@@ -20,7 +21,7 @@ public class ClientTest01 {
         System.out.println(typeClient.getNameLog());
 
         TypeClient typeClient2 = TypeClient.typeClientNameLog("Student");
-        System.out.println(typeClient2);
+        System.out.println(Colors.colorize(String.valueOf(typeClient2), Colors.MAGENTA));
 
     }
 }
