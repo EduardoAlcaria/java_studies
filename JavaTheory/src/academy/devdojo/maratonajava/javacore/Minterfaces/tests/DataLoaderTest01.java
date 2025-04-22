@@ -6,11 +6,23 @@ import academy.devdojo.maratonajava.javacore.Minterfaces.domain.FileLoader;
 
 public class DataLoaderTest01 {
     public static void main(String[] args) {
-        DataLoader dataLoader = new DatabaseLoader();
+        DatabaseLoader databaseLoader = new DatabaseLoader();
         FileLoader fileLoader = new FileLoader();
 
-        dataLoader.load();
+        databaseLoader.load();
+        databaseLoader.remove();
+
+        System.out.println();
+
         fileLoader.load();
+        fileLoader.remove();
+
+        System.out.println();
+
+        databaseLoader.checkPermission();
+        fileLoader.checkPermission();
+
+
 
     }
 }
