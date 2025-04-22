@@ -16,4 +16,5 @@ public abstract class Employee extends People{
     public void print() {
         System.out.println("Printing...");
     }
+
 }
