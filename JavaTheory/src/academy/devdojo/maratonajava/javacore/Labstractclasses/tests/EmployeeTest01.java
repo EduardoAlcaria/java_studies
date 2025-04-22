@@ -9,7 +9,11 @@ public class EmployeeTest01 {
         Dev dev = new Dev("Eduardo", 12000);
         Manager manager = new Manager("Lucas", 30000);
 
+        dev.print();
         System.out.println(dev);
+
+        manager.print();
         System.out.println(manager);
+
     }
 }

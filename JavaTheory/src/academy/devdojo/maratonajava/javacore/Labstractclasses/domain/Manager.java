@@ -17,4 +17,5 @@ public class Manager extends Employee{
     public void calcBonus() {
         this.salary = this.salary + this.salary * 0.2;
     }
+
 }
