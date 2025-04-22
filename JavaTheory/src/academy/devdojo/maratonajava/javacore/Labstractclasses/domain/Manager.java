@@ -3,8 +3,6 @@ package academy.devdojo.maratonajava.javacore.Labstractclasses.domain;
 public class Manager extends Employee{
     public Manager(String name, double salary) {
         super(name, salary);
-        this.name = name;
-        this.salary = salary;
     }
 
     @Override
@@ -13,5 +11,10 @@ public class Manager extends Employee{
                 "name='" + name + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    @Override
+    public void calcBonus() {
+        this.salary = this.salary + this.salary * 0.2;
     }
 }

@@ -4,9 +4,6 @@ public class Dev extends Employee{
 
     public Dev(String name, double salary) {
         super(name, salary);
-        this.name = name;
-        this.salary = salary;
-
     }
 
     @Override
@@ -15,5 +12,10 @@ public class Dev extends Employee{
                 "name='" + name + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    @Override
+    public void calcBonus() {
+        this.salary = this.salary + this.salary * 0.05;
     }
 }
