@@ -1,21 +1,21 @@
 package academy.devdojo.maratonajava.javacore.Npolimorfizm.domain;
 
-public abstract class Product {
-    private final String name;
-    private final String price;
+public abstract class Product implements Taxable{
+    protected String name;
+    protected double price;
 
-    public Product(String name, String price) {
+    public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
+
 
     public String getName() {
         return name;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
-
 
 }
