@@ -8,7 +8,7 @@ public class RunTimeExceptionTest02 {
         System.out.println("After the exception");
     }
 
-    private static int divide(int a, int b) throws ArithmeticException{
+    private static int divide(int a, int b){
         if (b == 0) {
             throw new ArithmeticException("Can't divide by zero");
         }
