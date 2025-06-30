@@ -18,5 +18,8 @@ public class PeriodTest01 {
         System.out.println(p3);
         System.out.println(p4);
         System.out.println(p5);
+
+        System.out.println(p3.getMonths());
+        System.out.println(date.until(date.plusDays(p3.getDays()), ChronoUnit.DAYS));
     }
 }
