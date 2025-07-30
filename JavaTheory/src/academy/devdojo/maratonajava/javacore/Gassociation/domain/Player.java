@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Gassociation.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Gassociation.domain;
 
 public class Player {
     private String name;

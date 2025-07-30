@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.Gassociation.tests;
 
-import academy.devdojo.maratonajava.javacore.Gassociation.domain.Player;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Gassociation.domain.Player;
 
 public class AssociationTest01 {
     public static void main(String[] args) {
