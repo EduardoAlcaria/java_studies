@@ -12,11 +12,15 @@ public class Smartphone {
    @Override
     public boolean equals(Object obj) {
         if (obj == null) return false;
-        if (this == obj) return true;
-        if (this.getClass() != obj.getClass()) return false;
+        if (obj == this) return true;
+        if (obj.getClass() != this.getClass()) return false;
         Smartphone smartphone = (Smartphone) obj;
-        return serialNumber != null && brand != null && serialNumber.equals(smartphone.getSerialNumber())
-                && brand.equals(smartphone.getBrand());
+        return serialNumber != null && serialNumber.equals(smartphone.serialNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return serialNumber == null ? 0: this.serialNumber.hashCode();
     }
 
     public String getSerialNumber() {
