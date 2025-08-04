@@ -16,6 +16,7 @@ public class SmartphoneListTest01 {
         smartphones.add(s1);
         smartphones.add(s2);
         smartphones.add(0, s3);
+        smartphones.addFirst(s3);
 
 
         for (Smartphone smartphone : smartphones) {
