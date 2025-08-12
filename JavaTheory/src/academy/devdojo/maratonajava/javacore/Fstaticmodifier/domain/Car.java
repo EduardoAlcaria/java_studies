@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Fstaticmodifier.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Fstaticmodifier.domain;
 
 public class Car {
     private String name;

@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Fstaticmodifier.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Fstaticmodifier.tests;
 
-import academy.devdojo.maratonajava.javacore.Fstaticmodifier.domain.Car;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Fstaticmodifier.domain.Car;
 
 public class StaticModifiersTest01 {
     public static void main(String[] args) {
