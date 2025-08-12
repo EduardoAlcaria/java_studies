@@ -1,9 +1,9 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfizm.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.test;
 
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Computer;
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Product;
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Tomato;
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.services.CalculateTax;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Computer;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Product;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Tomato;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.services.CalculateTax;
 
 public class ProductTest03 {
     public static void main(String[] args) {

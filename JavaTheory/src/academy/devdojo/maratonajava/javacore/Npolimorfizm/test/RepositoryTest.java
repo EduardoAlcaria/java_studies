@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfizm.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.test;
 
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.repository.Repository;
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.services.RepositoryDataBase;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.repository.Repository;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.services.RepositoryDataBase;
 
 import java.util.ArrayList;
 import java.util.List;
