@@ -1,9 +1,9 @@
-package academy.devdojo.maratonajava.Exercises.OOP.Ex001.Test;
+package JavaTheory.src.academy.devdojo.maratonajava.Exercises.OOP.Ex001.Test;
 
-import academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain.Actions;
-import academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain.BankAccount;
-import academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain.SavingsAccount;
-import academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain.SpecialAccount;
+import JavaTheory.src.academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain.Actions;
+import JavaTheory.src.academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain.BankAccount;
+import JavaTheory.src.academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain.SavingsAccount;
+import JavaTheory.src.academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain.SpecialAccount;
 
 public class Test {
     public static void main(String[] args) {
