@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfizm.services;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.services;
 
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Product;
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Tomato;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Product;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.domain.Tomato;
 
 public class CalculateTax {
     public static void calculateTax(Product product){

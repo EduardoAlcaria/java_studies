@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Minterfaces.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Minterfaces.domain;
 
 public class FileLoader implements DataLoader, DataRemover{
     @Override

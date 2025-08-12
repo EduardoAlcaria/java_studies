@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfizm.services;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.services;
 
-import academy.devdojo.maratonajava.javacore.Npolimorfizm.repository.Repository;
+import JavaTheory.src.JavaTheory.src.academy.devdojo.maratonajava.javacore.Npolimorfizm.repository.Repository;
 
 public class RepositoryMemory implements Repository {
 

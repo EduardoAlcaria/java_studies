@@ -1,8 +1,8 @@
-package academy.devdojo.maratonajava.javacore.Labstractclasses.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Labstractclasses.tests;
 
 
-import academy.devdojo.maratonajava.javacore.Labstractclasses.domain.Dev;
-import academy.devdojo.maratonajava.javacore.Labstractclasses.domain.Manager;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Labstractclasses.domain.Dev;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Labstractclasses.domain.Manager;
 
 public class EmployeeTest01 {
     public static void main(String[] args) {
