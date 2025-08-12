@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introduction;
+package JavaTheory.src.academy.devdojo.maratonajava.introduction;
 
 public class Lesson03PrimitiveTypesExercises {
     public static void main(String[] args) {

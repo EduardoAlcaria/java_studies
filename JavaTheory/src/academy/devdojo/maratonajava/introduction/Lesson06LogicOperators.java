@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introduction;
+package JavaTheory.src.academy.devdojo.maratonajava.introduction;
 
 public class Lesson06LogicOperators {
     public static void main (String[] args) {
