@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introduction;
+package JavaTheory.src.academy.devdojo.maratonajava.introduction;
 
 public class Lesson09Arrays02 {
     public static void main(String[] args) {
