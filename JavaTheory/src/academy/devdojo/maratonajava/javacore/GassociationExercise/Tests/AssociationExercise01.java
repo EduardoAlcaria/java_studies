@@ -1,9 +1,9 @@
 package JavaTheory.src.academy.devdojo.maratonajava.javacore.GassociationExercise.Tests;
 
-import academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Place;
-import academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Professor;
-import academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Seminary;
-import academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Student;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Place;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Professor;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Seminary;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Student;
 
 public class AssociationExercise01 {
     public static void main(String[] args) {
