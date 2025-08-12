@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.GassociationExercise.Domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.GassociationExercise.Domain;
 
 public class Student {
     private String name;

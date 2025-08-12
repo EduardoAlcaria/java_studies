@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Oexception.exception.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Oexception.exception.test;
 
 import academy.devdojo.maratonajava.javacore.Oexception.exception.domain.InvalidLoginException;
 

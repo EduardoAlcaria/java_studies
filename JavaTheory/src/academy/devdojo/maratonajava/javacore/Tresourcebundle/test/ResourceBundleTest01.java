@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Tresourcebundle.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Tresourcebundle.test;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
