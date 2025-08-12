@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Wnio;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Wnio;
 
 import java.nio.file.FileSystems;
 import java.nio.file.Path;

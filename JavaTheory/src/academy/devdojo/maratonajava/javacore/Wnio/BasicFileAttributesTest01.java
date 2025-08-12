@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Wnio;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Wnio;
 
 import java.io.File;
 import java.io.IOException;
