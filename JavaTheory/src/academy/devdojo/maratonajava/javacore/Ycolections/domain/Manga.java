@@ -1,6 +1,8 @@
 package JavaTheory.src.academy.devdojo.maratonajava.javacore.Ycolections.domain;
 
+import java.util.Comparator;
 import java.util.Objects;
+
 
 public class Manga implements Comparable<Manga>{
     private Long id;
