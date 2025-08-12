@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Rdates.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Rdates.tests;
 
 import java.time.Duration;
 import java.time.Instant;

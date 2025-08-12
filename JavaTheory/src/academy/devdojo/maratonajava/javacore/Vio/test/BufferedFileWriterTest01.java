@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Vio.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Vio.test;
 
 import java.io.BufferedWriter;
 import java.io.File;

@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Uregex.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Uregex.test;
 
 public class ScannerTest01 {
     public static void main(String[] args) {

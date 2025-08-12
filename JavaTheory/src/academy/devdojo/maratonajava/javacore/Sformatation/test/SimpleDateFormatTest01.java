@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Sformatation.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Sformatation.test;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
