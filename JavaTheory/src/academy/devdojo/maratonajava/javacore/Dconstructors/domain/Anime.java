@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Dconstructors.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Dconstructors.domain;
 
 public class Anime {
 

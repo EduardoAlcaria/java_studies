@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Einitializationblocks.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Einitializationblocks.tests;
 
-import academy.devdojo.maratonajava.javacore.Einitializationblocks.domain.Anime;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Einitializationblocks.domain.Anime;
 
 public class InitializationBlocksTest01 {
     public static void main(String[] args) {

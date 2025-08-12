@@ -1,6 +1,5 @@
-package academy.devdojo.maratonajava.javacore.Einitializationblocks.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Einitializationblocks.domain;
 
-import javax.crypto.spec.PSource;
 
 public class Anime {
     private String name;

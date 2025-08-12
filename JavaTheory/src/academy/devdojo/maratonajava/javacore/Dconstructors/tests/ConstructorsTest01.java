@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Dconstructors.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Dconstructors.tests;
 
-import academy.devdojo.maratonajava.javacore.Dconstructors.domain.Anime;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Dconstructors.domain.Anime;
 
 public class ConstructorsTest01 {
     public static void main(String[] args) {
