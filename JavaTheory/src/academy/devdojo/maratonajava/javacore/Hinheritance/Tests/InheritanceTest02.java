@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Hinheritance.Tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Hinheritance.Tests;
 
-import academy.devdojo.maratonajava.javacore.Hinheritance.Domain.Employee;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Hinheritance.Domain.Employee;
 
 public class InheritanceTest02 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Hinheritance.Domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Hinheritance.Domain;
 
 public class Address {
     private String street;
