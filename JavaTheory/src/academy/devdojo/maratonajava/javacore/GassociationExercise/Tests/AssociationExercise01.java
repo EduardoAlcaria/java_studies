@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.GassociationExercise.Tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.GassociationExercise.Tests;
 
 import academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Place;
 import academy.devdojo.maratonajava.javacore.GassociationExercise.Domain.Professor;

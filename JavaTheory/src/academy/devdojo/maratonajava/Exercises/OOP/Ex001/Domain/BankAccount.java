@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain;
+package JavaTheory.src.academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain;
 
 public abstract class BankAccount {
     protected String clientName;

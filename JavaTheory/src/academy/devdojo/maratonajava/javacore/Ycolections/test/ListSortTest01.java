@@ -33,6 +33,7 @@ public class ListSortTest01 {
         money.add(535.3);
 
         Collections.sort(money);
+        Collections.sort(mangas);
 
         System.out.println(money);
 

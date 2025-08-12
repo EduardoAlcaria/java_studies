@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Labstractclasses.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Labstractclasses.domain;
 
 public abstract class People {
     public abstract void print();

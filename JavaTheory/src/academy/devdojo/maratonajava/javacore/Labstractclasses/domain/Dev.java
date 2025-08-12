@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Labstractclasses.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Labstractclasses.domain;
 
 public class Dev extends Employee{
 

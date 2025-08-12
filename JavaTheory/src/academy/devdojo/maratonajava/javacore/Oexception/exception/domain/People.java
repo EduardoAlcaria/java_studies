@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Oexception.exception.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Oexception.exception.domain;
 
 import java.io.FileNotFoundException;
 
