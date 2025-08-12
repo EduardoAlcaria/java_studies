@@ -1,9 +1,9 @@
-package academy.devdojo.maratonajava.javacore.Kenum.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Kenum.test;
 
-import academy.devdojo.maratonajava.javacore.Kenum.domain.Client;
-import academy.devdojo.maratonajava.javacore.Kenum.domain.Colors;
-import academy.devdojo.maratonajava.javacore.Kenum.domain.PaymentMethod;
-import academy.devdojo.maratonajava.javacore.Kenum.domain.TypeClient;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Kenum.domain.Client;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Kenum.domain.Colors;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Kenum.domain.PaymentMethod;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Kenum.domain.TypeClient;
 
 public class ClientTest01 {
     public static void main(String[] args) {

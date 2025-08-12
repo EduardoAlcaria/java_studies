@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Jfinalmodifier.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Jfinalmodifier.tests;
 
-import academy.devdojo.maratonajava.javacore.Jfinalmodifier.domain.Car;
-import academy.devdojo.maratonajava.javacore.Jfinalmodifier.domain.Ferrari;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Jfinalmodifier.domain.Car;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Jfinalmodifier.domain.Ferrari;
 
 
 public class CarTest01 {

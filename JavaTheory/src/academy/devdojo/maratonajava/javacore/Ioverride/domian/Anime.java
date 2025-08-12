@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Ioverride.domian;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Ioverride.domian;
 
 public class Anime {
     private String animeName;

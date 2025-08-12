@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Ioverride.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Ioverride.tests;
 
-import academy.devdojo.maratonajava.javacore.Ioverride.domian.Anime;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Ioverride.domian.Anime;
 
 public class OverRideTest01 {
 

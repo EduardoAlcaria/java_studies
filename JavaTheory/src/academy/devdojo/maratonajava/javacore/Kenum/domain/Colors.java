@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Kenum.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Kenum.domain;
 
 public enum Colors {
     //Color end string, color reset
