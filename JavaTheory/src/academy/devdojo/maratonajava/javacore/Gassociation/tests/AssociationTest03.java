@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.javacore.Gassociation.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Gassociation.tests;
 
-import academy.devdojo.maratonajava.javacore.Gassociation.domain.School;
-import academy.devdojo.maratonajava.javacore.Gassociation.domain.Teacher;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Gassociation.domain.School;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Gassociation.domain.Teacher;
 
 public class AssociationTest03 {
     public static void main(String[] args) {

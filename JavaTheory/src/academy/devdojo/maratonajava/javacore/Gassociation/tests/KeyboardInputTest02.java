@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Gassociation.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Gassociation.tests;
 
 import java.util.Scanner;
 
