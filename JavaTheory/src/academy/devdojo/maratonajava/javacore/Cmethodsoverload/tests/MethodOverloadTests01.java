@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Cmethodsoverload.tests;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Cmethodsoverload.tests;
 
-import academy.devdojo.maratonajava.javacore.Cmethodsoverload.domain.Anime;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Cmethodsoverload.domain.Anime;
 
 public class MethodOverloadTests01 {
     public static void main(String[] args) {

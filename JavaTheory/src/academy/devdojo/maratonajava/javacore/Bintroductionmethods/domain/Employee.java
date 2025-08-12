@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Bintroductionmethods.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Bintroductionmethods.domain;
 
 
 public class Employee {

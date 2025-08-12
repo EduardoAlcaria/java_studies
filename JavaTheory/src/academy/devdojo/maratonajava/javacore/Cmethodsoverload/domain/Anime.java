@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Cmethodsoverload.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Cmethodsoverload.domain;
 
 public class Anime {
 

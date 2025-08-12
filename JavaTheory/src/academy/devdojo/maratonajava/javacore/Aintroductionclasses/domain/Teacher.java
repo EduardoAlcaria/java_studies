@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Aintroductionclasses.domain;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Aintroductionclasses.domain;
 
 public class Teacher {
     public String name;

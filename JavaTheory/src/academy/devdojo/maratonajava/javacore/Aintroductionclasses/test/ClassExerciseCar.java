@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Aintroductionclasses.test;
+package JavaTheory.src.academy.devdojo.maratonajava.javacore.Aintroductionclasses.test;
 
-import academy.devdojo.maratonajava.javacore.Aintroductionclasses.domain.Car;
+import JavaTheory.src.academy.devdojo.maratonajava.javacore.Aintroductionclasses.domain.Car;
 
 public class ClassExerciseCar {
     public static void main(String[] args) {
