@@ -26,6 +26,5 @@ public class BinarySearchTest02 {
 
         System.out.println(Collections.binarySearch(mangas, mangaToSearch, sortMangaById));
 
-
     }
 }

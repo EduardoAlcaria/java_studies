@@ -15,6 +15,5 @@ public class BinarySearchTest01 {
 
         Collections.sort(num);
         System.out.println("index " + Collections.binarySearch(num,1));
-
     }
 }
