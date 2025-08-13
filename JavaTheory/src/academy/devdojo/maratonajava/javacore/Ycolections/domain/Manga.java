@@ -1,6 +1,5 @@
 package JavaTheory.src.academy.devdojo.maratonajava.javacore.Ycolections.domain;
 
-import java.util.Comparator;
 import java.util.Objects;
 
 
@@ -8,6 +7,7 @@ public class Manga implements Comparable<Manga>{
     private Long id;
     private String title;
     private double price;
+    private int quantity;
 
     public Manga(Long id, String title, double price) {
         Objects.requireNonNull(id, "id can not be null");
@@ -17,13 +17,38 @@ public class Manga implements Comparable<Manga>{
         this.price = price;
     }
 
+    public Manga(Long id, String title, double price, int quantity) {
+        this(id, title, price);
+        this.quantity = quantity;
+    }
+
     @Override
     public String toString() {
         return "Manga{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", price=" + price +
+                ", quantity=" + quantity +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Manga o) {
+        // negative if this < o
+        // if this == o, return o
+        // positive if this > o
+//        if (this.id < o.getId()){
+//            return -1;
+//        }else if (this.getId().equals(o.getId())){
+//            return 0;
+//        }else{
+//            return 1;
+//        }
+
+        //return Double.compare(this.price, o.getPrice());
+        //return this.id.compareTo(o.getId());
+        return this.title.compareTo(o.getTitle());
+
     }
 
     @Override
@@ -62,22 +87,11 @@ public class Manga implements Comparable<Manga>{
         this.price = price;
     }
 
-    @Override
-    public int compareTo(Manga o) {
-        // negative if this < o
-        // if this == o, return o
-        // positive if this > o
-//        if (this.id < o.getId()){
-//            return -1;
-//        }else if (this.getId().equals(o.getId())){
-//            return 0;
-//        }else{
-//            return 1;
-//        }
+    public int getQuantity() {
+        return quantity;
+    }
 
-        //return Double.compare(this.price, o.getPrice());
-        //return this.id.compareTo(o.getId());
-        return this.title.compareTo(o.getTitle());
-
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 }
