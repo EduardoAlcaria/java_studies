@@ -13,7 +13,7 @@ public class NavigableMapTest01 {
 
         map.put("A", "letter A");
         map.put("D", "letter D");
-        map.put("C", "letter C  ");
+        map.put("C", "letter C");
         map.put("E", "letter E");
         map.put("B", "letter B");
 
