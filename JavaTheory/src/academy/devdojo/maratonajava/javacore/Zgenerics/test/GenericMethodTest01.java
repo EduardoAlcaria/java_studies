@@ -13,5 +13,6 @@ public class GenericMethodTest01 {
     private static <T> List<T> createArrayWithObj(T t){
         return List.of(t);
     }
+
 }
 
