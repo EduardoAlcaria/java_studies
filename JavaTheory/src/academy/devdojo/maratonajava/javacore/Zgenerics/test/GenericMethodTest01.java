@@ -14,5 +14,6 @@ public class GenericMethodTest01 {
         return List.of(t);
     }
 
+
 }
 
