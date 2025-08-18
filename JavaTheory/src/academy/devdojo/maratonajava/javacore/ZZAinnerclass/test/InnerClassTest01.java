@@ -9,7 +9,7 @@ public class InnerClassTest01 {
         public void printOuterClassAttribute(){
             System.out.println(name);
             System.out.println(this);
-            System.out.println(InnerClassTest01.this.toString());
+            System.out.println(InnerClassTest01.this);
         }
 
     }
