@@ -13,6 +13,10 @@ public class AnonymousClassesTest02 {
         boatList.add(new Boat("joat"));
         boatList.add(new Boat("betsky"));
 
+        boatList.sort((o1, o2) -> o1.getName().compareTo(o2.getName()));
+
+        System.out.println(boatList);
+
         boatList.sort(new Comparator<Boat>() {
             @Override
             public int compare(Boat o1, Boat o2) {
