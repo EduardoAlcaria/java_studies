@@ -39,10 +39,18 @@ public class MethodReferenceTest04 {
         animes.sort(AnimeComparator::compareByEpisodes);
         System.out.println(animes);
 
+        Supplier<AnimeComparator> animeComparatorSupplier = AnimeComparator::new;
+
+        AnimeComparator animeComparator1 = animeComparatorSupplier.get();
 
 
+        BiFunction<String, Integer, Anime> animeBiFunction2 = Anime::new;
 
+        Anime blueLock2 = animeBiFunction2.apply("blue lock", 44);
 
+        BiFunction<String, Integer, Anime> animeBiFunction3 = (name, eps) -> new Anime(name, eps);
 
+        Anime blueLock1 = animeBiFunction3.apply("blue lock", 35);
+        
     }
 }
