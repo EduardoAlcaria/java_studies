@@ -5,49 +5,43 @@ import JavaTheory.src.academy.devdojo.maratonajava.javacore.ZZDoptional.domain.M
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Predicate;
 
 public class OptionalTest02 {
+    private static List<Manga> list = new ArrayList<>(List.of(new Manga(1,"Jujutsu Kaisen"),
+            new Manga(2,"Bleach"),
+            new Manga(3,"Kagurabachi")));
+
     public static void main(String[] args) {
-        List<Manga> mangas = new ArrayList<>(List.of(new Manga(1,"Jujutsu Kaisen"),
-                new Manga(2,"Bleach"),
-                new Manga(3,"Kagurabachi")));
-
-        findMangaByName(mangas, new Manga(3, "Banki"));
-
-        mangas.sort(Manga::sortByName);
-        System.out.println(mangas);
-
-        System.out.println(findMangaById(mangas,3));
+        Manga byId = findById(3).orElseThrow(IllegalAccessError::new);
+        Optional<Manga> manga = findByTitle("Bleach");
+        manga.ifPresent(m -> m.setName("blue lock"));
 
 
+
+        System.out.println(byId);
+        System.out.println(manga);
     }
 
-    private static Optional findMangaByName(List<Manga> mangas, Manga manga) {
-        int i = mangas.indexOf(manga);
-        if (i != -1){
-            Manga manga1 = mangas.get(i);
-            manga1.setName("Blue Lock");
-            return Optional.of(mangas);
-        }
 
-        if (i == -1){
-            return Optional.of(mangas.add(new Manga(4, "Blue Lock")));
-
-
-        }
-        return Optional.empty();
+    private static Optional<Manga> findById(Integer id){
+        return findBy(m -> m.getId().equals(id));
+    }
+    private static Optional<Manga> findByTitle(String title){
+        return findBy(m -> m.getName().equals(title));
     }
 
-    private static Optional findMangaById(List<Manga> mangas, int id){
-        for (Manga manga : mangas) {
-            if (manga.getId() == id){
-                return Optional.of(true);
+    private static Optional<Manga> findBy(Predicate<Manga> tPredicate) {
+        Manga found = null;
+        for (Manga e : list) {
+            if (tPredicate.test(e)){
+                found = e;
+                return Optional.of(found);
             }
         }
-        throw new RuntimeException("ID not found");
+        return Optional.empty();
 
     }
-
 
 
 }
