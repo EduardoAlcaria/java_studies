@@ -29,8 +29,7 @@ public class StreamTest03 {
                 .filter(ln -> ln.getPrice() <= 4)
                         .count();
         System.out.println(count);
-
-
+        
     }
 
 
