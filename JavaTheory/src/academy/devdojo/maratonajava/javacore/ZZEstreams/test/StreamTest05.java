@@ -20,4 +20,6 @@ public class StreamTest05 {
 
         System.out.println(collect);
     }
+
+
 }
