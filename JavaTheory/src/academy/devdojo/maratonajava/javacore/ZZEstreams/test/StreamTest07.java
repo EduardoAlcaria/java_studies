@@ -17,6 +17,8 @@ public class StreamTest07 {
         integers.stream().reduce((x, y) -> x > y ? x : y).ifPresent(System.out::println);
         System.out.println(integers.stream().reduce(Integer::max));
         System.out.println(integers.stream().reduce(10, Integer::max));
+
+
     }
 }
 
