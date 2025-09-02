@@ -3,7 +3,6 @@ package JavaTheory.src.academy.devdojo.maratonajava.javacore.ZZEstreams.test;
 import JavaTheory.src.academy.devdojo.maratonajava.javacore.ZZEstreams.demon.LightNovel;
 
 import java.util.*;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class StreamTest11 {
