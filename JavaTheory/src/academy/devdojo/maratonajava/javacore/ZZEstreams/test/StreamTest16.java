@@ -47,4 +47,5 @@ public class StreamTest16 {
         System.out.println(result + " " + (end - init) + " ms");
     }
 
+
 }
