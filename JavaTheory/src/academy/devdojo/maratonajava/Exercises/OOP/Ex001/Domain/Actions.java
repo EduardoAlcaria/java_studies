@@ -3,8 +3,8 @@ package JavaTheory.src.academy.devdojo.maratonajava.Exercises.OOP.Ex001.Domain;
 public class Actions{
     public static void showInfo(BankAccount bankAccount){
         System.out.println("Client Name: " + bankAccount.getClientName());
-        System.out.println("Account balance: " + bankAccount.getBalance() + "RS");
-        System.out.println("Account number: " + bankAccount.getNumAccount());
+        System.out.println("withdrawn balance: " + bankAccount.getBalance() + "RS");
+        System.out.println("withdrawn number: " + bankAccount.getNumAccount());
     }
 
     public static void withdraw(BankAccount bankAccount, double amount){
