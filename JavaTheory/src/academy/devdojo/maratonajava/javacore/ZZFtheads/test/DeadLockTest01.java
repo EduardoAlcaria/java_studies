@@ -28,5 +28,6 @@ public class DeadLockTest01 {
         new Thread(r1).start();
         new Thread(r2).start();
 
+
     }
 }
