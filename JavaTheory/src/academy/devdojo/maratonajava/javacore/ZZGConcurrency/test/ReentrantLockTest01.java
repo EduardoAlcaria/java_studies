@@ -1,5 +1,6 @@
 package JavaTheory.src.academy.devdojo.maratonajava.javacore.ZZGConcurrency.test;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 class Worker implements Runnable{
@@ -13,11 +14,8 @@ class Worker implements Runnable{
 
     @Override
     public void run() {
-        lock.lock();
         try {
-            if (lock.isHeldByCurrentThread()){
-                System.out.printf("Thread %s has entered in a critical state%n", name);
-            }
+            lock.tryLock(2, TimeUnit.SECONDS);
             System.out.printf("There are %d Threads waiting on the queue %n", lock.getQueueLength());
             System.out.printf("Thread %s will wait for 2 segs %n", name);
             Thread.sleep(2000);
@@ -25,7 +23,9 @@ class Worker implements Runnable{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         } finally {
-            lock.unlock();
+            if (lock.isHeldByCurrentThread()){
+                lock.unlock();
+            }
         }
     }
 
