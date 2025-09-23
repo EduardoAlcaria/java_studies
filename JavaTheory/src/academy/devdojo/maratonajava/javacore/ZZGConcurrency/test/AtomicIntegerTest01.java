@@ -1,13 +1,24 @@
 package JavaTheory.src.academy.devdojo.maratonajava.javacore.ZZGConcurrency.test;
 
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 class Counter {
     private int count;
     private final AtomicInteger atomicInteger = new AtomicInteger();
+    private Lock lock = new ReentrantLock(true);
 
-    void increment(){
+    void increment() throws InterruptedException {
+        lock.tryLock(3, TimeUnit.SECONDS);
+        lock.lock();
+        try {
+            count++;
+        }finally {
+            lock.unlock();
+        }
         count++;
         atomicInteger.incrementAndGet();
     }
@@ -27,7 +38,11 @@ public class AtomicIntegerTest01 {
         Counter counter = new Counter();
         Runnable r = () -> {
             for (int i = 0; i < 10000; i++) {
-                counter.increment();
+                try {
+                    counter.increment();
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
         };
 
