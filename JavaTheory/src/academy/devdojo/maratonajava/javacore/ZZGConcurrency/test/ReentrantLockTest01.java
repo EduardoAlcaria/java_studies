@@ -43,6 +43,5 @@ public class ReentrantLockTest01 {
         new Thread(new Worker("F", lock)).start();
         new Thread(new Worker("G", lock)).start();
 
-
     }
 }
