@@ -44,6 +44,11 @@ public class StreamTest11 {
 
         System.out.println(lightNovels.stream().collect(Collectors.summingDouble(LightNovel::getPrice)));
 
+
+        DoubleSummaryStatistics collect2 = lightNovels.stream().collect(Collectors.summarizingDouble(LightNovel::getPrice));
+
+        System.out.println(collect2);
+
         OptionalDouble avg = lightNovels.stream().mapToDouble(LightNovel::getPrice).average();
         System.out.println(lightNovels.stream().collect(Collectors.averagingDouble(LightNovel::getPrice)));
 
@@ -60,8 +65,6 @@ public class StreamTest11 {
                 .collect(Collectors.joining(", "));
 
         System.out.println(collect1);
-
-
 
     }
 
