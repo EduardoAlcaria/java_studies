@@ -66,6 +66,7 @@ public class StreamTest11 {
 
         System.out.println(collect1);
 
+
     }
 
 }
