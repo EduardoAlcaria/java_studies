@@ -17,37 +17,6 @@ public class StreamExercise08 {
         list.stream()
                 .mapToDouble(String::length).average().ifPresent(System.out::println);
 
-        System.out.println("==============================");
 
-        DoubleSummaryStatistics collect = list.stream().collect(Collectors.summarizingDouble(String::length));
-
-        System.out.println(collect);
-
-        System.out.println("==============================");
-
-
-        List<Integer> list3 = new ArrayList<>(
-                List.of(-1, 2, 3, 4, 5, 6)
-        );
-
-
-        list3.stream()
-                .filter(e -> e%2==0)
-                .reduce(Integer::sum).ifPresent(System.out::println);
-
-        System.out.println("==============================");
-
-        Stream<String> stringStream = list.stream()
-                .flatMap(s -> Arrays.stream(s.split(",")))
-                .collect(Collectors.joining()).lines();
-
-        stringStream.forEach(System.out::println);
-
-        System.out.println("==============================");
-
-        boolean b = list3.stream()
-                .allMatch(e -> e > 0);
-
-        System.out.println(b);
     }
 }
