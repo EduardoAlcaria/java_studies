@@ -15,7 +15,7 @@ public class StreamExercise05 {
 
         System.out.println(sorted);
 
-        System.out.println("==============================");
+
 
 
 
