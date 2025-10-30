@@ -11,7 +11,6 @@ public class StreamExercise12 {
                 List.of(-1, 2, 3, 4, 5, 6)
         );
 
-        System.out.println("==============================");
 
         boolean b = list3.stream()
                 .allMatch(e -> e > 0);
