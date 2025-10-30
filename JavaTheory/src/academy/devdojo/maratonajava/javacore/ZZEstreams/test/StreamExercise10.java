@@ -1,14 +1,13 @@
 package JavaTheory.src.academy.devdojo.maratonajava.javacore.ZZEstreams.test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 public class StreamExercise10 {
     public static void main(String[] args) {
-        System.out.println("==============================");
+
 
 
         List<Integer> list3 = new ArrayList<>(
@@ -20,7 +19,7 @@ public class StreamExercise10 {
                 .filter(e -> e%2==0)
                 .reduce(Integer::sum).ifPresent(System.out::println);
 
-        System.out.println("==============================");
+
 
 
     }
